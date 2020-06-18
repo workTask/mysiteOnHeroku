@@ -2,7 +2,7 @@
 const  express = require('express')
 const app = express()
 
-const port= process.env.PORT || 7007
+const port= process.env.PORT || 3008
 
 //get pages listing
 app.get ('/', (req, res) => {
