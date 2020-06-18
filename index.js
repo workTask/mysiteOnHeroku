@@ -2,7 +2,7 @@
 var  express = require('express')
 var app = express()
 
-//var PORT= process.env.PORT || 80
+var PORT= process.env.PORT || 80
 
 //get pages listing
 app.get ('/', (req,res)=>{
@@ -15,6 +15,6 @@ app.get ('/register', (req,res)=>{
 
 
 
-app.listen(7004, ()=>{
+app.listen(PORT, ()=>{
     console.log('Server started')
 })
