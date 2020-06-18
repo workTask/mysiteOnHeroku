@@ -2,7 +2,7 @@
 const  express = require('express')
 const app = express()
 
-const PORT= process.env.PORT || 5000
+const port= process.env.PORT || 7007
 
 //get pages listing
 app.get ('/', (req, res) => {
@@ -12,6 +12,6 @@ app.get ('/', (req, res) => {
 app.get ('/register', (req, res) => {
     res.end('<div><nav><ul><li><a href="/">Home</a></li><li><a href="/register">Register</a></li></ul></nav><h1>Register page</h1></div>')
 })
-app.listen(PORT, ()=>{
-    console.log('Server started ${PORT}')
+app.listen(port, ()=>{
+    console.log('Server started ${port}')
 })
