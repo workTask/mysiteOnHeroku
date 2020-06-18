@@ -12,6 +12,6 @@ app.get ('/', (req, res) => {
 app.get ('/register', (req, res) => {
     res.end('<div><nav><ul><li><a href="/">Home</a></li><li><a href="/register">Register</a></li></ul></nav><h1>Register page</h1></div>')
 })
-app.listen(port, ()=>{
+app.listen(port, ( )=> {
     console.log('Server started ${port}')
 })
