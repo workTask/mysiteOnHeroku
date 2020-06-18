@@ -1,2 +1,2 @@
 My first site on heroku host
-https://glitch.com/~endurable-succinct-detail
+Link https://endurable-succinct-detail.glitch.me/
