@@ -1,0 +1,19 @@
+{
+  "name": "mysiteonheroku",
+  "version": "1.0.0",
+  "description": "My first site on heroku host",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workTask/mysiteOnHeroku.git"
+  },
+  "author": "vikafrantsuh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/workTask/mysiteOnHeroku/issues"
+  },
+  "homepage": "https://github.com/workTask/mysiteOnHeroku#readme"
+}
