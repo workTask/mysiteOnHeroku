@@ -1,2 +1,2 @@
 My first site on heroku host
-Link https://endurable-succinct-detail.glitch.me/
+Link https://fathomless-sands-36064.herokuapp.com/
